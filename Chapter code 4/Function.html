@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        let age = 18;
+        function printAge(){
+            console.log(`Your age is ${ahe}`);
+        }
+        printAge();
+        age = 39;
+        printAge();
+        age = 93;
+        printAge();
+
+        //Return statement
+
+
+        function generateRandonMove(){
+            let random = math.random();
+            let randomMove = random * 3;
+            return randomMove;
+        }
+        let randomMove = generateRandonMove();
+          console.log(generateRandonMove());
+          console.log(generateRandonMove());
+          console.log(generateRandonMove());
+          console.log(generateRandonMove());
+
+
+
+
+        function determineDriveStatus(){
+            let age = 23;
+            if (age === undefined){
+                return 'App avtaar hain';
+            }
+            console.log('checking drive status');
+            if (ahe > 29){
+                return 'You can drive';
+            }
+            else{
+                return 'Use a Bicycle';
+            }
+        }
+        console.log(determineDriveStatus());
+
+
+        //function parameter.
+
+        function sun(a, b){
+        let sum = a+b;
+        return sum;
+        }
+        console.log(sum(2, 4));
+
+
+        //deafault value
+
+        function greeting(name = 'Pyaare'){
+            console.log(`Namaste ${name} uncle`);
+        }
+        graating();
+    </script>
+</body>
+</html>
